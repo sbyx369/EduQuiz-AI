@@ -26,10 +26,42 @@ from any educational topic automatically.
 - Multi-subject Support
 
 ## Architecture
-User Topic → LangFlow → Prompt Template → IBM Granite Model → Quiz Generation → Output
 
-## GitHub Repository
-https://github.com/sbyx369/EduQuiz-AI
+User Input
+    ↓
+LangFlow Workflow
+    ↓
+Prompt Template
+    ↓
+IBM watsonx.ai
+    ↓
+IBM Granite Foundation Model
+    ↓
+Learning Modules + MCQs + Answers + Explanations
+
+## Screenshots
+
+### LangFlow Workflow
+![Workflow](screenshots/Langflow.png)
+
+### IBM watsonx.ai Prompt Lab
+![Prompt Lab](screenshots/watsonx_promptlab.png)
+
+### Generated Output
+![Output](screenshots/Langflow_output1.png)
+
+## Future Scope
+
+- PDF and DOCX export support
+- Adaptive learning recommendations
+- Multi-language quiz generation
+- Difficulty-level customization
+- LMS integration
 
 ## Author
-Sadam Bhargav
+
+Bhargav Sadam
+
+## IBM SkillsBuild Project
+
+This project was developed as part of the IBM SkillsBuild / watsonx.ai learning initiative.
